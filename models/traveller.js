@@ -28,7 +28,7 @@ Traveller.prototype.getUniqueModesOfTransport = function () {
     if (!results.includes(journey.transport)) {
        results.push(journey.transport);
     };
-    return results
+    return results;
   }, []);
 };
 
